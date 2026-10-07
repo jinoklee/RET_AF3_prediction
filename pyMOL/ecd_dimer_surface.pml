@@ -10,6 +10,7 @@
 # NOTE: never put a "# comment" after a command on the same line (PyMOL passes it as arguments).
 
 # ---------- Scene setup ----------
+set auto_zoom, 0
 # white background, opaque when ray-traced
 bg_color white
 set ray_opaque_background, 1
