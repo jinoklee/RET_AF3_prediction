@@ -1,8 +1,8 @@
 # ECD dimer scene: chain-colored cartoon + semi-transparent surface (pLDDT > 50)
 #
 # Usage in PyMOL (the structure must be loaded under the name "mol"):
-#   load C:/Users/PC/Documents/study/50.RET/1.study/ECD/AF3/WT/WT_dimer_GDNF_GFRa1/fold_WT_dimer_GDNF_GFRa1_model_0.cif, mol
-#   @C:/Users/PC/Documents/study/50.RET/1.study/ECD/Script/ecd_dimer_surface.pml
+#   load C:/----/fold_WT_dimer_GDNF_GFRa1_model_0.cif, mol
+#   @C:/----/ecd_dimer_surface.pml
 #
 # If the structure is already loaded under another name, rename it first:
 #   set_name fold_WT_dimer_GDNF_GFRa1_model_0, mol
