@@ -1,8 +1,8 @@
 # ICD dimer scene: chain B = cyan cartoon, chain A = gray transparent surface, ATP pocket = mesh
 #
 # Usage in PyMOL (the structure must be loaded under the name "mol"):
-#   load C:/Users/PC/Documents/study/50.RET/1.study/ICD/AF3/WT/WT_dimer_ATP_phospho/fold_WT_dimer_ATP_phospho_model_0.cif, mol
-#   @C:/Users/PC/Documents/study/50.RET/1.study/ICD/Script/icd_dimer_ret_analysis.pml
+#   load C:/----/fold_WT_dimer_ATP_phospho_model_0.cif, mol
+#   @C:/----/icd_dimer_ret_analysis.pml
 #
 # If the structure is already loaded under another name, rename it first:
 #   set_name fold_WT_dimer_ATP_phospho_model_0, mol
