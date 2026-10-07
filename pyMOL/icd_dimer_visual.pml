@@ -35,7 +35,7 @@ select subB, mol and polymer and chain B
 # the ATP molecule bound near catalytic Lys758 of chain A
 select atpA, byres (mol and resn ATP within 6 of (enzA and resi 758))
 
-# ---------- Chain B: cyan cartoon with the substrate loop as sticks ----------
+# ---------- Chain A: cyan cartoon with the substrate loop as sticks ----------
 show cartoon, subB
 color cyan, subB
 # substrate loop (residues 892-909)
@@ -43,7 +43,7 @@ select sub_loop, subB and resi 892-909
 show sticks, sub_loop
 color magenta, sub_loop
 
-# ---------- Chain A: gray transparent surface ----------
+# ---------- Chain B: gray transparent surface ----------
 show surface, enzA
 color gray80, enzA
 # semi-transparent surface (0 = opaque, 1 = invisible)
