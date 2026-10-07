@@ -66,6 +66,7 @@ set surface_carve_selection, atpA, obj_pocket
 set surface_carve_cutoff, 5.0, obj_pocket
 
 # ---------- ATP: sticks, yellow carbons, N/O/P in element colors ----------
+select atpA, mol and resn ATP and chain C
 show sticks, atpA
 color yellow, atpA
 util.cnc atpA
