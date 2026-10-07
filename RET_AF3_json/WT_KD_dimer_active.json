@@ -1,0 +1,38 @@
+[
+  {
+    "name": "WT_KD_dimer_active",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "RKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDHPDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYL",
+          "count": 2,
+          "modifications": [
+            {
+              "ptmType": "CCD_PTR",
+              "ptmPosition": 180
+            },
+            {
+              "ptmType": "CCD_PTR",
+              "ptmPosition": 185
+            }
+          ]
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_ATP",
+          "count": 2
+        }
+      },
+      {
+        "ion": {
+          "ion": "MG",
+          "count": 4
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "WT_ECD_dimer_GDNF_GFRa1",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAPEEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLTVYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENRPPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELVAVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFDADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNRNLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFAQIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAELHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGRCEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPRGIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCYHKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSM",
+          "count": 2,
+          "modifications": [],
+          "glycans": [
+            {
+              "residues": "NAG",
+              "position": 98
+            },
+            {
+              "residues": "NAG",
+              "position": 151
+            },
+            {
+              "residues": "NAG",
+              "position": 199
+            },
+            {
+              "residues": "NAG",
+              "position": 336
+            },
+            {
+              "residues": "NAG",
+              "position": 343
+            },
+            {
+              "residues": "NAG",
+              "position": 361
+            },
+            {
+              "residues": "NAG",
+              "position": 367
+            },
+            {
+              "residues": "NAG",
+              "position": 377
+            },
+            {
+              "residues": "NAG",
+              "position": 394
+            },
+            {
+              "residues": "NAG",
+              "position": 448
+            }
+          ]
+        }
+      },
+      {
+        "proteinChain": {
+          "sequence": "DRLDCVKASDQCLKEQSCSTKYRTLRQCVAGKETNFSLASGLEAKDECRSAMEALKQKSLYNCRCKRGMKKEKNCLRIYWSMYQSLQGNDLLEDSPYEPVNSRLSDIFRVVPFISDVFQQVEHIPKGNNCLDAAKACNLDDICKKYRSAYITPCTTSVSNDVCNRRKCHKALRQFFDKVPAKHSYGMLFCSCRDIACTERRRQTIVPVCSYEEREKPNCLNLQDSCKTNYICRSRLADFFTNCQPESRSVSSCLKENYADCLLAYSGLIGTVMTPNYIDSSSLSVAPWCDCSNSGNDLEECLKFLNFFKDNTCLKNAIQAFGNGSDVTVWQPAFPVQTTTATTTTALRVKNKPLGPAGSENEIPTHVLPPCANLQAQKLKSNVSGNTHLCISNGNYEKEGLGASS",
+          "count": 2,
+          "modifications": []
+        }
+      },
+      {
+        "proteinChain": {
+          "sequence": "SPDKQMAVLPRRERNRQAAAANPENSRGKGRRGQRGKNRGCVLTAIHLNVTDLGLGYETKEELIFRYCSGSCDAAETTYDKILKNLSRNRRLVSDKVGQACCRPIAFDDDLSFLDDNLVYHILRKHSAKRCGCI",
+          "count": 2,
+          "modifications": []
+        }
+      },
+      {
+        "ion": {
+          "ion": "CA",
+          "count": 8
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]
