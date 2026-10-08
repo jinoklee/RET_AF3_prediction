@@ -33,7 +33,7 @@ set ray_trace_fog, 0
 select enzA, mol and polymer and chain A
 select subB, mol and polymer and chain B
 # the ATP molecule bound near catalytic Lys758 of chain A
-select atpA, byres (mol and resn ATP within 6 of (enzA and resi 758))
+select atpA, mol and resn ATP and chain C
 
 # ---------- Chain A: cyan cartoon with the substrate loop as sticks ----------
 show cartoon, subB
@@ -60,7 +60,7 @@ create obj_pocket, enzA within 8 of atpA
 hide everything, obj_pocket
 show mesh, obj_pocket
 set mesh_width, 0.5
-color gray40, obj_pocket
+color blue, obj_pocket
 # keep only the part of the pocket mesh that lies near ATP
 set surface_carve_selection, atpA, obj_pocket
 set surface_carve_cutoff, 5.0, obj_pocket
